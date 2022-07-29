@@ -1,0 +1,49 @@
+.send-campaign .modal-content{
+	text-align: center;
+}
+
+.send-campaign .modal-header {
+	justify-content: center;
+} 
+
+.send-campaign .modal-body {
+	padding: 0 0 20px;
+}
+
+.send-campaign .btn-wrap {
+    margin: 23px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.send-campaign h1{
+	font-size: 22px;
+}
+
+.send-campaign p{
+	font-size: 15px;
+}
+
+.send-campaign .btn {
+	font-size: 16px;
+    line-height: 1;
+    padding: 8px 25px 8px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-width: 2px;
+    outline: none !important;
+	box-shadow: none !important; 
+	margin: 0 20px;
+}
+
+.send-campaign .btn.red-btn {
+	color: #EB81A9 !important;
+    border-color: #EB81A9 !important;
+	background: rgba(235,129,169,0.1) !important;
+}
+
+.send-campaign .btn.green-btn {
+	color: #449FAE !important;
+	border-color: #449FAE !important;
+    background: rgba(68,159,174,0.1) !important;
+}

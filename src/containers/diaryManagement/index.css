@@ -1,0 +1,344 @@
+
+.small-title {
+	font-family: "lato-bold-webfont";
+	font-size: 15px;
+    line-height: 1;
+    color: #e5e4e5;
+	margin-left: 400px;
+	font-weight: 100;
+	letter-spacing: 0.5px;
+}
+
+.diary-right-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.diary-management .search-div {
+    max-width: 238px;
+    position: relative;
+    width: 100%;
+    margin: 0 21px;
+	background: none;
+}
+
+.diary-management .search-div input {
+	border: 1px solid #EBEBED;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+	background: rgba(255,255,255,0.3);
+	color: #FFFFFF;
+}
+
+
+
+.diary-management .search-btn {
+    background: url(../../../src/assets_crm/img/search.svg) no-repeat;
+    border: none;
+    text-indent: -9999px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 9px;
+    top: 8px;
+    background-size: contain;
+}
+
+
+
+
+.diary-management .pink.btn-outline-primary {
+    color: #EB81A9;
+    border-color: #EB81A9;
+	background: rgba(235,129,169,0.1) !important;
+}
+
+.diary-management .task-list.call .btn-outline-primary {
+    color: #EB81A9 !important;
+    border-color: #EB81A9 !important;
+	outline: none !important;
+	
+}
+
+.diary-management .task-list.meeting .btn-outline-primary {
+    color: #AA0050 !important;
+    border-color: #AA0050 !important;
+	outline: none !important;
+}
+
+
+.diary-management .task-list.email .btn-outline-primary {
+    color: #449FAE !important;
+    border-color: #449FAE !important;
+	outline: none !important;
+	background: rgba(68,159,174,0.1) !important;
+}
+
+.diary-management .btn-outline-primary {
+	font-size: 16px;
+	line-height: 1;
+	padding: 8px 30px 8px 10px;
+	background: rgba(255,255,255,0.3);
+	text-decoration: none;
+	border-radius: 10px;
+	border-width: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.diary-management h2.call-condition {
+	font-size: 14px;
+	color: #000;
+	line-height: 1;
+	margin: 0;
+}
+
+.border-space {
+    width: 100%;
+    background: #f1f1f5;
+    height: 1px;
+    display: block;
+    margin: 10px 0;
+}
+
+.diary-management .task-list.call h2.call-condition {
+	font-size: 14px;
+	color: #EB81A9;
+}
+
+.diary-management .task-list.meeting h2.call-condition {
+	color: #449fae;
+	font-size: 14px;
+}
+
+.diary-management .task-list.email h2.call-condition {
+	font-size: 14px;
+	color: #AA0050;
+}
+
+.diary-management .date-time {
+	color: #52575D;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+.diary-management .time {
+    margin: 0 0 0 12px;
+	color: #191919;
+	font-size: 15px;
+}
+.diary-management .time img {
+   margin: -3px 3px 0 0;
+   width: 18px;
+}
+
+.task-list .btn-outline-primary img {
+	margin: 0 12px 0 0;
+	width: 18px;
+}
+
+.diary-management .white.btn-outline-primary {
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+
+.diary-management .white.btn-outline-primary:hover {
+	background: rgba(255,255,255,0.5);
+}
+
+.stack {
+	color: #191919;
+	font-size: 15px;
+}
+
+.stack span {
+	color: #B1B1B1;
+	display: block;
+	line-height: 1;
+	font-size: 13px;
+}
+
+
+.task-list {
+	background: #FFFFFF;
+	padding: 20px 12px 7px;
+	margin: 10px 0;
+	border-radius: 10px;
+	border-left: 5px solid transparent;
+	box-shadow: -1px 1px 37px -19px rgba(0,0,0,0.81);
+}
+
+.task-list.call {
+	border-color: #EB81A9;
+}
+
+.task-list.meeting {
+	border-color: #AA0050;
+}
+
+.task-list.email {
+	border-color: #00A1B0;
+}
+
+.task-list h4 {
+	font-size: 18px;
+	line-height: 1;
+	color: #52575D;
+	display: flex;
+	align-items: center;
+}
+
+.task-list h4 span {
+	margin: 0 10px 0 0;
+}
+
+.task-list h2 {
+	font-size: 18px;
+	line-height: 1;
+	color: #52575D;
+	font-family: "lato-bold-webfont";
+}
+
+
+.task-list h3 {
+	font-size: 18px;
+	line-height: 1;
+	color: #52575D;
+	font-family: "lato-bold-webfont";
+	display: flex;
+}
+
+.red-circle.circle {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: #F2323F;
+	border-radius: 50%;
+}
+
+.right-content h3 {
+	font-size: 16px;
+	line-height: 1;
+	color: #191919;
+	margin: 0;
+}
+
+.right-content p {
+	font-size: 16px;
+	line-height: 1;
+	color: #52575D;
+	margin: 0;
+}
+
+.green-text {
+	color: #00956E !important;
+}
+
+.task-heading {
+	margin-bottom: 15px;
+}
+
+
+.overdue-calls {
+	border-radius: 10px;
+	border: 2px solid #ffc107;
+	background-color: rgba(255,193,7,0.5) !important;
+	color: #ffffff !important;
+	padding: 5px 9px !important;
+	outline: none !important;
+	display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+	flex-direction: column;
+	outline: none !important;
+	width: 100%;
+	max-width: 123px;
+	line-height: 1.2;
+	
+}
+
+.overdue-calls.green-call {
+	margin: 0 8px 0 0;
+	border: 2px solid #218000;
+	background-color: rgba(33,128,0,0.5) !important;
+}
+
+.overdue-calls span {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.diary-management .list-content-main {
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+    padding: 0 10px;
+}
+.diary-management .list-content {
+    width: 16%;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+.diary-management .list-content p {
+	word-wrap: break-word;
+    font-size: 13px;
+}
+
+.diary-management .small-list {
+	width: 10%;
+}
+
+
+@media screen and (max-width: 991px) {
+	.right-content {
+		margin: 50px 0 0;
+	}
+	.right-top {
+		background: rgba(0,0,0,0.7);
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.diary-right-content {
+		justify-content: flex-start;
+		margin: 12px 0 0;
+	}
+
+	.diary-management .search-div {
+		margin: 0 10px 0 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.stack {
+		margin: 0 0 10px;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.diary-management .list-content-main {
+		flex-direction: column;
+	}
+	.diary-management .list-content {
+		width: 100%;
+	}
+}
+
+.right-content h4 {
+	font-size: 18px;
+	line-height: 1;
+	color: #00A1B0;
+}
+
+.calendar-box {
+	border-radius: 10px;
+	border-top: 5px solid #00956E;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	box-shadow: -1px 1px 37px -19px rgba(0,0,0,0.81);
+}
