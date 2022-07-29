@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'ProximaSoft-Bold';
+    src: url('../../assets_crm/fonts/ProximaSoft-Bold.woff2') format('woff2'),
+         url('../../assets_crm/fonts/ProximaSoft-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaSoft-Medium';
+    src: url('../../assets_crm/fonts/ProximaSoft-Medium.woff2') format('woff2'),
+         url('../../assets_crm/fonts/ProximaSoft-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaSoft';
+    src: url('../../assets_crm/fonts/ProximaSoft-Regular.woff2') format('woff2'),
+         url('../../assets_crm/fonts/ProximaSoft-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Goodlife';
+    src: url('../../assets_crm/fonts/good_life-webfont.woff2') format('woff2'),
+         url('../../assets_crm/fonts/good_life-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'lato-bold-webfont';
+    src: url('../../assets_crm/fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../../assets_crm/fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato-regular-webfont';
+    src: url('../../assets_crm/fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../../assets_crm/fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'lato-regular-webfont';
+  color: #333333;
+  font-size: 16px;
+  overflow-x: hidden;
+  background-size: cover;
+  background: #f5f6fa;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;  
+}
+
+/* header */
+#header {
+	background: #FFFFFF;
+	padding: 15px 0;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+
+/*
+Login Forgot password Page
+*/
+
+.title {
+  font-size: 30px;
+  color: #333333;
+  border-bottom: 2px solid #EBF2F7;
+  padding: 0 0 15px;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 40px;
+  font-weight: bold;
+}
+
+
+#main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../../assets_crm/img/login-bg.jpg');
+  background-size: cover;
+  
+}
+
+
+
+#login {
+  width: 100%;
+  max-width: 583px;
+  height: 504px;
+  box-sizing: border-box;
+  padding: 20px;
+  background: #FFFFFF;
+  margin: 80px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border-top: 5px solid #00956E;
+  box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.login-inner {
+  max-width: 319px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login form {
+  width: 100%;
+}
+#login form input[type=text]::placeholder,
+#login form input[type=email]::placeholder,
+#login form input[type=password]::placeholder {
+  color: #CBC9D9;
+}
+
+#login form input[type=text],
+#login form input[type=email],
+#login form input[type=password] {
+	border: 1px solid #F5F6FA;
+	box-sizing: border-box;
+	border-radius: 10px;
+	color: #333333;
+	background: #F5F6FA;
+	max-width: 100%;
+	font-family: "ProximaSoft";
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1;
+	height: 50px;
+	outline: none;
+}
+
+#login form input[type=email]:focus,
+#login form input[type=password]:focus {
+	box-shadow: none;
+  border: 1px solid #3EAC90;
+}
+
+
+#login form button[type=submit] {
+	background: #3EAC90;
+	border-radius: 10px;
+	width: 100%;
+	font-family: "ProximaSoft";
+	font-weight: normal;
+	font-size: 19px;
+    height: 44px;
+	line-height: 1;
+	text-align: center;
+	letter-spacing: -0.05em;
+	color: #FFFFFF;
+	border: none;
+	margin: 15px 0 0;
+	padding: 0 !important;
+}
+
+#login form button[type=submit]:hover {
+  background: #1f8067;
+}
+
+#login form button[type=submit]:focus {
+	box-shadow: none;
+}
+
+#login form p {
+  font-family: "ProximaSoft";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  max-width: 400px;
+  text-align: center;
+}
+
+#login form p a {
+  color: #508ff4;
+  position: relative;
+  display: inline-block;
+  margin: 15px 0;
+}
+
+
+/*
+Login Forgot password Page
+*/
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.toast {
+    background-color: #030303 !important
+}
+.toast-success {
+    background-color: #51A351 !important
+}
+.toast-error {
+    background-color: #BD362F !important
+}
+.toast-info {
+    background-color: #2F96B4 !important
+}
+.toast-warning {
+    background-color: #F89406 !important
+}

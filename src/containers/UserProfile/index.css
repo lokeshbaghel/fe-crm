@@ -1,0 +1,78 @@
+
+.user-profile .inner-curve-box {
+    box-sizing: border-box;
+    padding: 20px 15px;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+.user-profile .table-wrap {
+    padding: 0 20px;
+}
+
+.user-profile table th {
+	padding: 8px 12px;
+	background: #9adbc0;
+    color: #FFFFFF;
+	font-size: 14px;
+	border: none !important;
+}
+
+.user-profile table td {
+    border: none;
+}
+
+.user-profile table thead th:first-child {
+    border-radius: 10px 0 0 10px;
+}
+.user-profile table thead th:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+.user-profile .user-section {
+    padding: 5px 0;
+}
+
+.user-profile .user-section strong {
+    min-width: 130px;
+    display: inline-block;
+}
+
+.user-profile .bottom-content {
+    margin: 40px 0;
+}
+
+.user-profile h3 span {
+    border-bottom: 3px solid #ebf2f7;
+    padding: 0 0 13px;
+    margin: 0 0 26px;
+    display: block;
+}
+
+.user-profile .change-pass-btn {
+    color: #000000;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.user-profile .bottom-content .user-section {
+    border-top: 2px solid #e6eaef;
+    border-bottom: 2px solid #e6eaef;
+    padding: 25px 0;
+}
+
+
+@media (max-width: 767px) {
+    .user-banner .banner-bg {
+        height: 410px;
+    }
+}
+
+
+
+
+
+
+

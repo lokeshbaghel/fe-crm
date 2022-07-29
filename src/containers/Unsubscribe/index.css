@@ -1,0 +1,130 @@
+#unsubscribe .main-title {
+    font-size: 30px;
+    color: #333333;
+    border-bottom: 2px solid #EBF2F7;
+    padding: 0 0 15px;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 30px;
+    font-weight: bold;
+  }
+  
+  #unsubscribe .sub-title {
+    font-size: 15px;
+    color: #333333;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 22px;
+    font-weight: bold;
+  }
+  
+  #unsubscribe-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../assets_crm/img/login-bg.jpg");
+    background-size: cover;
+    
+  }
+  
+  #unsubscribe {
+    width: 95%;
+    max-width: 583px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #FFFFFF;
+    margin: 80px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-top: 5px solid #00956E;
+    box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .unsubscribe-inner {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #unsubscribe .btn {
+      font-size: 16px;
+      line-height: 1;
+      padding: 8px 25px 8px;
+      text-decoration: none;
+      border-radius: 10px;
+      border-width: 2px;
+      outline: none !important;
+      box-shadow: none !important; 
+      margin: 0 20px;
+  }
+  
+  #unsubscribe .btn.red-btn {
+      color: #EB81A9 !important;
+      border-color: #EB81A9 !important;
+      background: rgba(235,129,169,0.1) !important;
+  }
+  
+  #unsubscribe .btn.green-btn {
+      color: #449FAE !important;
+      border-color: #449FAE !important;
+      background: rgba(68,159,174,0.1) !important;
+  }
+  
+  /*popup*/
+  @media (min-width: 576px){
+    .unsubscribe-popup .modal-dialog {
+      max-width: 584px;
+    }
+  }
+  .unsubscribe-popup .modal-content{
+    border-top: 5px solid #00956E;
+    box-shadow: 1px 1px 12px 0px rgb(0 0 0 / 50%);
+  }
+
+  .unsubscribe-popup .btn {
+      font-size: 16px;
+      line-height: 1;
+      padding: 8px 25px 8px;
+      text-decoration: none;
+      border-radius: 10px;
+      border-width: 2px;
+      outline: none !important;
+      box-shadow: none !important; 
+      margin: 0 20px;
+  }
+  
+  .unsubscribe-popup .btn.red-btn {
+      color: #EB81A9 !important;
+      border-color: #EB81A9 !important;
+      background: rgba(235,129,169,0.1) !important;
+  }
+  
+  .unsubscribe-popup .btn.green-btn {
+      color: #449FAE !important;
+      border-color: #449FAE !important;
+      background: rgba(68,159,174,0.1) !important;
+  }
+  
+  .unsubscribe-popup .sub-title {
+    font-size: 14px;
+    color: #333333;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 22px;
+    font-weight: bold;
+  }
+  
+  .unsubscribe-popup .modal-body {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  /*popup*/
