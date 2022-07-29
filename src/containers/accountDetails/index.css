@@ -1,0 +1,2290 @@
+a.back-link {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	margin: 0 0 43px;
+	text-decoration: underline;
+}
+
+a.back-link img {
+	margin: 0 5px 0 0;
+	max-width: 6px;
+}
+
+.account-profile-page .green.btn-outline-primary {
+    color: #FFFFFF;
+    background: rgba(68,159,174,0.5) ;
+}
+
+.account-profile-page .green.btn.btn-outline-primary.start-call-btn {
+    padding: 7px 24px 7px 13px;
+	color: #FFFFFF !important;
+    background: rgba(68,159,174,0.5) !important;
+	box-shadow: none !important;
+	outline: none !important;
+	border-color: #449FAE !important;
+	height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.account-profile-page .btn.btn-outline-primary.end-call-btn {
+	padding: 7px 24px 7px 13px;
+	background: rgba(170,0,80,0.5) !important;
+	color: #fff !important;
+	box-shadow: none !important;
+	outline: none !important;
+	border-color: #AA0050 !important;
+	height: 32px;
+    display: flex;
+    align-items: center;
+}
+.account-profile-page .btn.btn-outline-primary.start-call-btn img,
+.account-profile-page .btn.btn-outline-primary.end-call-btn img {
+	margin: 0 15px 0 0;
+}
+
+.account-profile-page a.btn.btn-outline-primary.start-call-btn img {
+	position: relative;
+    top: -2px;
+	max-width: 14px;
+}
+
+.account-profile-page .passed-over-charms-title{
+	color: #edf109;
+    font-size: 14px;
+}
+
+.account-profile-page .curve-box-content {
+    background: #FFFFFF;
+    border-radius: 14px;
+    box-sizing: border-box;
+    padding: 25px 6px;
+	box-shadow: -1px 1px 37px -19px rgb(0 0 0 / 81%);
+}
+
+.account-profile-page .left-content .curve-box-content {
+	padding: 25px 20px;
+}
+
+.account-profile-page .nav-tabs.items .nav-link.active,
+.account-profile-page .nav-tabs.items .nav-link {
+    border: none !important;
+	background: none;
+	color: #191919;
+	text-decoration: none;
+}
+.account-profile-page .nav-tabs.items .nav-link {
+	color: #B1B1B1;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 0 0 7px;
+    margin: 0 20px 0 0;
+}
+
+.account-profile-page .nav-tabs.items .nav-link.active {
+	color: #191919;
+}
+
+.account-profile-page .nav-tabs.items .add-applicant-btn{
+	color: #707070;
+    position: relative;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #707070;
+    background: none !important;
+	box-shadow: none !important;
+	outline: none;
+	margin: -2px 0 10px auto;
+	font-weight: 500;
+}
+
+.account-profile-page .nav-tabs.items .add-applicant-btn:hover{
+	border-color: #00956E;
+    color: #00956E;
+}
+
+.account-profile-page .nav-tabs.items {
+	border-bottom: 1px solid #d5d6e1;
+	width: 100%;
+}
+
+.account-profile-page .add-activities {
+	border-color: #707070 !important;
+	border-width: 1px;
+	color: #52575D !important;
+	background: none !important;
+	padding: 6px 16px;
+	box-shadow: none !important;
+	margin: 0 0 0 7px;
+}
+
+.form-details-content .custom-link {
+    padding: 2px 11px 3px;
+    font-size: 15px;
+    margin: 0px 0 6px 9px;
+}
+
+.left-content .applicant p {
+	margin: 0;
+	font-size: 12px;
+	color: #B1B1B1;
+}
+
+.left-content .applicant h5 {
+	margin: 0;
+	font-size: 14px;
+	color: #191919;
+}
+.left-content .seperator {
+	border-bottom: 1px solid #d5d6e1;
+	margin: 16px 0 10px
+}
+
+.left-content h2 {
+	font-size: 13px;
+	color: #FFFFFF;
+}
+
+
+.account-profile-page .right-content {
+	width: 100%;
+	margin: 0;
+}
+
+.account-profile-page .right-content .curve-box-content {
+    border-radius: 0px 14px 14px 14px;
+}
+
+.right-content .nav-tabs {
+    border: none;
+    background: rgba(255,255,255,0.5);
+    width: auto;
+    display: inline-flex;
+	border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+	
+	
+}
+
+.right-content .nav-tabs .nav-link {
+	border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+	border: none;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 8px 16px;
+}
+
+
+.right-content .nav-tabs .nav-link.active {
+	color: #191919;
+}
+
+
+.right-content .nav-tabs .nav-link:hover {
+	background: #FFFFFF;
+	color: #191919;
+}
+
+.account-profile-page .head-title {
+	display: flex;
+	justify-content: space-between;
+}
+
+.account-profile-page .right-list {
+    padding: 0 0 20px 28px;
+    box-sizing: border-box;
+}
+
+
+.account-profile-page .head-left {
+	position: relative;
+}
+
+.account-profile-page .call-icon:after {
+	content: "";
+    background: url(../../assets_crm/img/phon-icon.png);
+    width: 25px;
+    height: 21px;
+    display: block;
+    position: absolute;
+    left: -27px;
+    top: 2px;
+    background-size: contain;
+}
+
+.account-profile-page .calendar-icon:after {
+	content: "";
+    background: url(../../assets_crm/img/calendar-red-icon.svg) no-repeat;
+    width: 15px;
+    height: 17px;
+    display: block;
+    position: absolute;
+    left: -27px;
+    top: 2px;
+    background-size: contain;
+}
+
+.account-profile-page .campaign-icon:after {
+	content: "";
+    background: url(../../assets_crm/img/campaign_black-icon.svg) no-repeat;
+    width: 22px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: -27px;
+    top: 2px;
+    background-size: contain;
+}
+
+.account-profile-page .green-circle:after {
+	content: "";
+    width: 12px;
+    height: 12px;
+	border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: -27px;
+    top: 6px;
+    background: #00956E;
+}
+
+.account-profile-page .task-icon:after {
+	content: "";
+    background: url(../../assets_crm/img/task.svg) no-repeat;
+    background-size: contain;
+    width: 13px;
+    height: 17px;
+    display: block;
+    position: absolute;
+    left: -27px;
+    top: 4px;
+}
+
+.account-profile-page .user-icon:after {
+	content: "";
+    background: url(../../assets_crm/img/user-icon-black.svg) no-repeat;
+    background-size: contain;
+    width: 13px;
+    height: 17px;
+    display: block;
+    position: absolute;
+    left: -27px;
+    top: 4px;
+}
+
+.account-profile-page .mid-content {
+	margin: 50px 0 0;
+}
+
+.account-profile-page .notes-content textarea {
+	width: 100%;
+	height: 95px;
+	background: #F5F6FA;
+	padding: 10px;
+	resize: none;
+	border: none;
+	box-shadow: none;
+}
+
+.account-profile-page .notes-content .btn-outline-primary {
+	border-color: #979797;
+	color: #191919 !important;
+	padding: 5px 10px;
+	background: none !important;
+	margin: 20px 0 0;
+}
+
+.account-profile-page .notes-content .btn-outline-primary:hover,
+.account-profile-page .notes-content .btn-outline-primary:focus {
+	border-color: #00956E !important;
+	box-shadow: none !important;
+}
+
+.account-profile-page .form-div {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.account-profile-page .history-list-main {
+    margin: -30px 0 0;
+}
+
+.account-profile-page .history-list-main h2 {
+	color: #191919;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.account-profile-page .history-list {
+	display: flex;
+}
+
+.account-profile-page .history-list .icon-main {
+    width: 60px;
+}
+
+.account-profile-page .history-list .icon-main img {
+	border-radius: 50%;
+	width: 43px;
+	height: 43px;
+}
+.history-content {
+    width: 100%;
+}
+.account-profile-page .history-list-main p {
+	color: #BBC2CB;
+	font-size: 15px;
+}
+
+.account-profile-page .history-list-main h3 {
+	color: #191919;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 5px 0 8px;
+}
+
+.account-profile-page .history-list-main h4 {
+	color: #52575D;
+	font-size: 18px;
+}
+
+.account-profile-page a.btn.btn-outline-primary.edit-btn {
+	color: #707070;
+    position: relative;
+	padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #707070;
+	background: none !important;
+	margin: 10px 12px;
+}
+
+.account-profile-page a.btn.btn-outline-primary.edit-btn:hover,
+.account-profile-page a.btn.btn-outline-primary.edit-btn:focus {
+	border-color: #00956E;
+	color: #00956E;
+}
+
+.tab-links .edit-btn {
+	margin: 10px 0;
+}
+
+.account-profile-page .form-group-main {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 0 0 16px;
+}
+
+.account-profile-page .border-spacer {
+	background: #e5e6ed;
+	width: 100%;
+	height: 1px;
+	margin: 26px 0 26px;
+}
+
+.account-profile-page .first-group .common-width  {
+	width: 22%;
+}
+
+.account-profile-page .second-group .common-width  {
+	width: 22%;
+}
+
+.account-profile-page .form-details-content {
+    padding: 25px 0 0;
+}
+
+.account-profile-page .form-details-content .form-group {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	border: 1px solid #C1C0C852;
+	border-radius: 10px;
+	margin: 0 12px 7px 0;
+	min-height: 50px;
+}
+
+.account-profile-page .form-details-content .form-group label {
+	font-size: 11px;
+	padding: 0 10px;
+	margin: 3px 0 0;
+}
+
+.account-profile-page .form-details-content .form-group input {
+	border: none !important;
+	box-shadow: none !important;
+	outline: none;
+	padding: 0 10px 5px;
+	background: none;
+	width: 100%;
+	font-size: 14px;
+}
+
+
+
+
+.account-profile-page .title-input {
+	width: 100%;
+	max-width: 80px !important;
+	margin: 0 10px;
+}
+
+.account-profile-page .post-code,
+.account-profile-page .dob-input {
+	width: 100%;
+	max-width: 228px !important;
+}
+
+.account-profile-page .address-input {
+    width: 100%;
+    max-width: 591.6px !important;
+}
+
+.account-profile-page .border-none {
+	border: none !important; 
+}
+
+.account-profile-page .form-details-content select {
+    width: 100%;
+    border: none;
+    padding: 0 6px;
+	background: none;
+	outline: none;
+}
+
+.account-profile-page .half-width .form-group {
+	width: 48%;
+}
+
+.applicant-info.account-profile-page .half-width .form-group {
+	width: 100%;
+}
+
+
+.account-profile-page .switch {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.account-profile-page .switch-btn {
+	display: flex;
+	margin: 0 0 16px;
+}
+.account-profile-page .switch-btn button {
+    border: 1px solid #191919 !important;
+    color: #191919;
+    border-radius: 9px;
+    font-size: 13px;
+    padding: 0 15px;
+    margin: 0 0 0 auto;
+}
+
+.account-profile-page .switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.account-profile-page .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 7px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #B1B1B1; 
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.account-profile-page .switch-btn h2 {
+	color: #B1B1B1;
+	font-size: 14px;
+	margin: 0 12px 0 0;
+}
+
+.account-profile-page .slider:before {
+	position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    left: 2px;
+    top: 1px;
+    background-color: #B1B1B1;
+    -webkit-transition: .4s;
+    transition: .4s;
+	top: 1px;
+}
+
+.account-profile-page input:checked + .slider {
+	border-color: #000000;
+}
+
+.account-profile-page input:focus + .slider {
+  box-shadow: 0 0 1px #000000;
+}
+
+.account-profile-page input:checked + .slider:before {
+  -webkit-transform: translateX(29px);
+  -ms-transform: translateX(29px);
+  transform: translateX(29px);
+}
+
+.account-profile-page input:checked + .slider.round:before {
+	background-color: #000000;
+}
+
+/* Rounded sliders */
+.account-profile-page .slider.round {
+	border-radius: 34px;
+	width: 48px;
+	height: 16px;
+}
+
+.account-profile-page .slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+.account-profile-page .user-management-modal h1 {
+	text-align: center;
+}
+
+.account-profile-page .select-wrap {
+	display: flex;
+	margin: 0 0 16px;
+}
+
+.account-profile-page .marketing-content .select-option {
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #C1C0C852;
+    border-radius: 10px;
+    margin: 0 6px;
+	width: 100%;
+}
+
+.account-profile-page .marketing-content .select-option label {
+	font-size: 11px;
+	padding: 0 10px;
+	margin: 3px 0 0;
+}
+
+.account-profile-page .marketing-content .select-option select {
+    width: 100%;
+    border: none;
+    padding: 0 6px;
+	background: none;
+}
+
+.account-profile-page .marketing-content .form-group input {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none;
+    padding: 0 10px 5px;
+    background: none;
+    width: 100%;
+}
+
+.account-profile-page .select-wrap-list {
+	display: flex;
+	margin: 0 0 16px;
+}
+
+.account-profile-page .select-wrap-list .select-option {
+	padding: 10px;
+}
+
+
+
+.account-profile-page .marketing-content .select-option h3 {
+	font-size: 16px;
+}
+
+.account-profile-page .marketing-content .select-option p {
+	font-size: 14px;
+	margin: 0 0 4px;
+}
+
+.account-profile-page .marketing-content .select-wrap-list .select-option {
+    margin: 0;
+}
+
+.account-profile-page .documents-content .upload-wrapper{
+	position: relative;
+}
+
+.account-profile-page .documents-content .upload-wrapper .upload-container {
+    width: 100%;
+    height: 160px;
+    border: 1px solid #EBEBED;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	background: #f7f8fa;
+}
+
+.account-profile-page .documents-content .upload-wrapper .disable-drag-drop {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+}
+
+.account-profile-page .documents-content .upload-wrapper .disable-drag-drop ~ .upload-container {
+	opacity: 0.5;
+}
+
+.account-profile-page .documents-content .upload-container input {
+    width: 51px;
+    content: "browse";
+    font-size: 0px;
+    margin: -7px 0 0 5px;
+    border: none;
+    padding: 0 !important;
+    outline: none !important;
+    background: none !important;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.account-profile-page .upload-container img {
+    margin: 0 0 5px;
+}
+
+.account-profile-page .documents-content p {
+    color: #B1B1B1;
+    font-size: 14px;
+}
+
+.account-profile-page .documents-content .upload-content {
+    display: flex;
+    align-items: center;
+	position: relative;
+}
+
+.account-profile-page .upload-content input:before {
+    content: "browse";
+    color: #06956E;
+    font-size: 16px;
+}
+
+.account-profile-page .documents-content input#myFile1 {
+    position: absolute;
+    top: 94px;
+    padding: 20px !important;
+    opacity: 0;
+}
+
+.account-profile-page .search-div {
+    height: 31px;
+    width: 194px;
+	max-width: 100%;
+    position: relative;
+}
+
+.account-profile-page .search-div input {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    background: #FFFFFF;
+	padding: 0 10px 0 31px;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.account-profile-page .search-div input:focus {
+	border-color: #191919;
+}
+
+.account-profile-page .search-btn {
+    background: url(../../assets_crm/img/search-icon.png) no-repeat;
+    border: none;
+    text-indent: -9999px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 9px;
+    top: 10px;
+    background-size: contain;
+}
+
+.account-profile-page .filter-container h3 {
+	color: #B1B1B1;
+	font-size: 14px;
+}
+
+.account-profile-page .add-progress {
+	border-radius: 8px;
+    color: #191919 !important;
+    background: #FFFFFF !important;
+    border: 1px solid #191919;
+    height: 31px;
+	font-size: 13px;
+    width: 190px;
+	max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius: 50px;
+	box-shadow: none !important;
+}
+
+.account-profile-page .add-progress:focus,
+.account-profile-page .add-progress:hover {
+	color: #191919;
+	border-color: #191919 !important;
+	outline: none !important;
+}
+
+.account-profile-page .filter-button {
+    border-radius: 8px;
+    color: #B1B1B1;
+    background: #FFFFFF !important;
+    border: 1px solid #B1B1B1;
+    height: 31px;
+    width: 80px;
+	max-width: 100%;
+	font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin: 0 0 0 20px;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.account-profile-page .filter-button:focus,
+.account-profile-page .filter-button:hover {
+	color: #191919 !important;
+	border-color: #191919 !important; 
+}
+.account-profile-page .filter-container {
+    margin: 20px 0 12px;
+}
+
+.account-profile-page .doc-right p {
+	font-size: 14px;
+	color: #BBC2CB;
+}
+.account-profile-page .doc-right h2 {
+	font-size: 16px;
+	color: #191919;
+	font-weight: bold;
+	margin: 0 0 3px;
+}
+.account-profile-page .doc-right h3 {
+	font-size: 15px;
+	color: #52575D;
+	margin: 0;
+}
+
+.account-profile-page .doc-history-list {
+    display: flex;
+}
+
+.account-profile-page .doc-history-icon {
+	width: 50px;
+	margin: 0 12px 0 0;
+}
+
+.account-profile-page .doc-history-list {
+	margin: 0 0 20px;
+}
+
+.account-profile-page .doc-history-list .doc-right a {
+	text-decoration: none;
+}
+
+.account-profile-page .progress-items h1 {
+	color: #191919;
+	font-size: 16px;
+	font-weight: bold;
+}
+.account-profile-page .progress-items p {
+	color: #191919;
+	font-size: 14px;
+	margin: 0 0 5px;
+}
+
+.account-profile-page .progress-items h2 {
+	color: #52575D;
+	font-size: 14px;
+	margin: 5px 0;
+}
+
+.account-profile-page .progress-items h2 span {
+	margin-right: 6px;
+}
+
+/* .account-profile-page .progress-items .inner-content {
+	box-sizing: border-box;
+	padding: 0 10px 20px;
+} */
+
+.account-profile-page .program-items-content{
+	margin: 25px 0 0;
+}
+
+.account-profile-page .seperator-line {
+	background: #d0d3df;
+	width: 100%;
+	height: 1px;
+	margin: 0 0 25px;
+}
+
+.account-profile-page .form-group.gender-input {
+    width: 100%;
+    max-width: 100px;
+}
+
+.account-profile-page .form-group.managed-width {
+    width: 100%;
+    max-width: 405px;
+}
+
+.account-profile-page .form-group-main.same-width .form-group {
+    width: 23.3%;
+}
+
+.account-profile-page .form-group-main.same-width .form-group.nationality {
+    width: 18.3%;
+}
+
+.account-profile-page .form-group-main.same-width .country-of-birth {
+    width: 52%;
+}
+
+.account-profile-page .three-col .form-group {
+    width: 30%;
+}
+
+.account-profile-page .slimScrollDiv {
+	padding: 25px 14px;
+    box-sizing: border-box;
+}
+
+.account-profile-page .scrollbar {
+    padding: 5px 21px 9px 8px;
+}
+
+.applicant-info.account-profile-page .second-group .common-width {
+	width: 100%;
+}
+
+
+.applicant-info .half-width .form-wrap-main {
+	width: 48%;
+	margin: 0 12px 0 0;
+}
+
+.applicant-info .second-group .form-wrap-main {
+	margin: 0 12px 0 0;
+}
+
+.applicant-info.account-profile-page .three-col .form-wrap-main {
+	width: 30%;
+	margin: 0 12px 0 0;
+}
+
+.applicant-info.account-profile-page .three-col .form-wrap-main.custom-check .form-group  {
+	flex-direction: row;
+	align-items: center;
+}
+
+.applicant-info.account-profile-page .form-group-main.same-width .form-wrap-main {
+	width: 23.3%;
+	margin: 0 12px 0 0;
+}
+
+.applicant-info.account-profile-page .form-group-main.same-width .country-of-birth{
+	width: 48%;
+	margin: 0 12px 0 0;
+}
+
+.applicant-info.account-profile-page .form-group-main.same-width .form-group,
+.applicant-info.account-profile-page .three-col .form-group {
+	width: 100%;
+}
+
+
+.account-profile-page .form-details-content .disabled-input{
+	background-color: rgba(239, 239, 239, 0.3);
+    border-color: rgba(118, 118, 118, 0.3);
+}
+
+.account-profile-page .form-details-content .double-group .form-group {
+    width: 48%;
+}
+
+.account-profile-page .upload-container img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.account-profile-page .pdf-btn-div {
+	display: flex;
+    justify-content: space-between;
+	margin: 10px 0;
+}
+
+.account-profile-page .pdf-btn-div button {
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+.account-profile-page .marketing-content .enquiry-list-section{
+	font-size: 12px;
+}
+
+.account-profile-page .marketing-content .enquiry-list-section ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.account-profile-page .marketing-content .enquiry-list-section ul li {
+    margin: 0 25px 0 0;
+}
+
+
+.custom-green {
+	background: rgba(0,149,110,0.3) !important;
+    border-color: #00956e !important;
+    color: #00956e !important;
+	padding: 7px 20px;
+	font-size: 14px;
+	width: 48%;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.custom-green:hover {
+	background: rgba(0,149,110,1) !important;
+    color: #FFFFFF !important;
+}
+
+.custom-red {
+	background: rgba(170,0,80,0.3) !important;
+	padding: 7px 20px;
+	color: #AA0050 !important;
+	border-color: #AA0050 !important;
+	font-size: 14px;
+	width: 48%;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.custom-red:hover {
+	background: rgba(170,0,80,1) !important;
+	border-color: #AA0050 !important;
+    color: #FFFFFF !important;
+}
+
+@media screen and (max-width: 1200px) {
+	.full-small {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 860px) {
+	.right-content .nav-tabs .nav-link {
+		padding: 8px 10px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.account-profile-page .scrollbar {
+		padding: 5px 12px 9px 7px;
+	}
+	.account-profile-page .form-details-content .form-group {
+		margin: 0 0 7px 0;
+	}
+	.account-profile-page .right-content .tab-links .nav-tabs .nav-link {
+		background: none !important;
+	}
+	.account-profile-page .right-content .tab-links .nav-tabs .nav-link.active {
+		color: #191919;
+		background: none !important;
+	}
+	.account-profile-page .marketing-content .enquiry-list-section ul {
+		flex-direction: column;
+	}
+	.account-profile-page .marketing-content .select-wrap-list {
+		margin: 0 0 20px;
+	}
+	.account-profile-page .right-content .top-nav.nav-tabs {
+		border-radius: 0;
+		background: #ffffff !important;
+		margin: 0 0 20px;
+	}
+	.account-profile-page .right-content .curve-box-content {
+		border-radius: 0;
+	}
+	.right-content .nav-tabs .nav-link:hover,
+	.right-content .nav-tabs .nav-link.active {
+		background:#000000 !important;
+		color: #FFFFFF;
+	}
+
+	.right-content .nav-tabs .nav-link {
+		border-radius: 0;
+		color: #000000;
+		background:#f2f2f2 !important;
+		border: 1px solid #cccccc;
+	}
+
+	.applicant-info.account-profile-page .three-col .form-wrap-main,
+	.applicant-info.account-profile-page .form-group-main.same-width .form-wrap-main,
+	.applicant-info .half-width .form-wrap-main,
+	.applicant-info.account-profile-page .form-wrap-main,
+	.applicant-info.account-profile-page .form-details-content .double-group .form-group {
+		width: 100%;
+		margin-right: 0;
+	}
+	
+	.account-profile-page .right-content { 
+		margin: 30px 0 0;
+	}
+	.account-profile-page .right-content .top-nav.nav-tabs {
+		background: rgba(0,0,0,0.5);
+		width: 100%;
+	}
+	.account-profile-page .form-details-content .form-group {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.account-profile-page .right-content .top-nav.nav-tabs li {
+		width: 100%;
+		text-align: center;
+	}
+	.account-profile-page .form-group-main {
+		margin: 0 !important;
+	}
+	.account-profile-page .select-wrap {
+		flex-direction: column;
+	}
+	.account-profile-page .marketing-content .select-option {
+		margin: 0 0 11px;
+	}
+	.account-profile-page .select-wrap {
+		margin: 0;
+	}
+	.account-profile-page .select-wrap-list {
+		margin: 0;
+	}
+	
+	.account-profile-page .filter-container h3 {
+		margin: 0 0 12px;
+	}
+	
+	.start-call-btn {
+		margin: 12px 0;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.account-profile-page .add-progress {
+		margin: 0 0 12px;
+	}
+	.account-profile-page .switch-btn button {
+		padding: 0 8px;
+	}
+}
+
+/* Close Account Modal */
+
+@media (min-width: 576px) {
+	.close-account .modal-dialog{
+		max-width: 600px;
+	}
+}
+
+.close-account .modal-content {
+    padding: 0px 30px;
+}
+
+.close-account .form-group {
+    margin: 0 0 15px;
+    width: 100%;
+}
+
+.close-account .input-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #C1C0C852;
+    border-radius: 10px;
+    padding: 0 5px;
+    position: relative;
+    width: 100%;
+}
+
+.custom-close .customAttemptClass {
+	margin: 0;	
+}
+
+
+.custom-close .css-vndh9s-control {
+	border: 1px solid #C1C0C852 !important;
+}
+.custom-close .css-vndh9s-control:hover {
+	outline: none !important;
+}
+
+
+
+.close-account p {
+	margin: 0 0 3px;
+	font-weight: bold;
+}
+
+.close-account .select-wrap.input-wrap {
+	max-width: 100%;
+} 
+
+.close-account .form-group label {
+    font-size: 11px;
+    padding: 0 10px;
+    margin: 3px 0 0;
+    position: absolute;
+    color: #CBC9D9;
+}
+
+.close-account .form-group select, 
+.close-account .form-group input,
+.close-account .form-group textarea {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none;
+    padding: 18px 10px 5px 7px;
+    background: none;
+    width: 100%;
+    outline: none !important;
+    font-size: 14px;
+    height: 45px;
+}
+
+.close-account .modal-footer {
+    justify-content: center;
+}
+
+.close-account .btn-wrap {
+	margin: 0;
+}
+
+.close-account .cancel-btn {
+    cursor: pointer;
+    color: #B1B1B1;
+    text-decoration: underline;
+    margin: 0 0 0 21px;
+}
+
+.close-account .form-group textarea {
+    height: 120px;
+    resize:none;
+}
+
+.close-account .btn.btn-primary {
+    margin: 5px 0 0;
+    width: 100%;
+	outline: none;
+	padding: 7px 60px;
+}
+
+.close-account .close-reason-box textarea:focus{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.close-account .text-danger:empty {
+    display: none;
+}
+
+.close-account .close-reason-box textarea:focus-visible{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.close-account .form-check{
+	float: left;
+	margin: 10px;
+}
+
+.close-account .form-check-input{
+	width: auto !important;
+}
+
+.close-account div.options {
+	display: block;
+    margin-bottom: 10px;
+}
+
+.close-account div.options label {
+	display: inline-block;
+    width: auto;
+  }
+  
+.close-account div.options input {
+	visibility: hidden;
+	float: right;
+	width: auto;
+}
+  
+.close-account div.options img {
+	padding: 0px;
+	height:20px;
+	width:20px;
+	background: none;
+	float: left;
+	overflow: hidden;
+	margin: 3px 10px 0 0px;
+}
+
+.close-account div.options input:checked +img {  
+	background: url(../../assets_crm/img/tick.png);
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-size:15px 15px;
+}
+/* End Close Account Modal */
+
+
+.filter-div .modal-footer {
+	flex-direction: column;
+}
+
+.filter-div .cancel-btn {
+	margin: 10px 0 0;
+}
+
+/* Account Status Section */
+.account-status .btn.btn-active {
+	color: #00956E;
+	border: 1px solid #00956E;
+	font-size: 12px;
+	padding: 4px 10px;
+    border-radius: 50px;
+    line-height: 1;
+	background: rgba(0,149,110,0.3);
+	text-decoration: none !important;
+	cursor: default;
+}
+
+.account-status .btn {
+	color: #B1B1B1;
+	font-size: 12px;
+	padding: 4px 10px;
+    line-height: 1;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.account-status .btn:hover {
+	text-decoration: underline;
+}
+
+.account-status .btn-active.disabled, .btn-active:disabled{
+	opacity: 1 !important;
+}
+/*End Account Status Section */
+
+/* Active Account Modal CSS */
+
+@media (min-width: 576px) {
+	.active-account .modal-dialog {
+		max-width: 600px;
+	}
+}
+
+.active-account .modal-content{
+	text-align: center;
+}
+
+.active-account .modal-header {
+	justify-content: center;
+} 
+
+.active-account .modal-body {
+	padding: 0 0 20px;
+}
+
+
+.active-account .btn-wrap {
+    margin: 23px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.active-account p{
+	font-size: 18px;
+}
+
+.active-account .btn {
+	font-size: 16px;
+    line-height: 1;
+    padding: 8px 25px 8px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-width: 2px;
+    outline: none !important;
+	box-shadow: none !important; 
+	margin: 0 20px;
+}
+
+.active-account .btn.red-btn {
+	color: #EB81A9 !important;
+    border-color: #EB81A9 !important;
+	background: rgba(235,129,169,0.1) !important;
+}
+
+.active-account .btn.green-btn {
+	color: #449FAE !important;
+	border-color: #449FAE !important;
+    background: rgba(68,159,174,0.1) !important;
+}
+/* End Active Account Modal CSS */
+
+/* Details Tab and its applicant modal css*/
+.account-profile-page .form-details-content .form-group input.country_code_telephone1,
+.account-profile-page .form-details-content .form-group input.country_code_mobile1
+{
+    width:30px;
+    margin:0 0 -7px 0;
+}
+
+.account-profile-page .form-details-content .form-group input.country_code_telephone,
+.account-profile-page .form-details-content .form-group input.country_code_mobile
+{
+    width: 50px;
+    margin: -20px 0px 0px 20px;
+}
+
+/* Initial Enquiry Form Modal CSS start */
+.initial-enquiry-form .modal-dialog {
+	/*max-width: 850px !important;*/
+	max-width: 100%;
+}
+
+
+.initial-enquiry-form {
+    max-width: 100%!important;
+    margin: 0;
+	height: 100%;
+	padding: 0 !important;
+}
+.initial-enquiry-form .modal-dialog {
+	margin: 0;
+	height: 100%;
+}
+.initial-enquiry-form .modal-dialog {
+    max-width: 100%!important;
+}
+
+.initial-enquiry-form .modal-content {
+	border-top: 5px solid #00956E;
+	box-sizing: border-box;
+	height: 100%;
+    box-shadow: none;
+    min-height: 100%;
+    border-radius: 0;
+}
+
+.initial-enquiry-form .modal-header,
+.initial-enquiry-form .modal-body-inner {
+	padding: 10px 34px 10px 15px;
+}
+
+.inital-enquiry-form-btn-wrap .initial-enquiry-btn {
+	border-color: #707070;
+	border-width: 1px;
+	color: #52575D !important;
+    font-weight: bold;
+	font-size: 14px;
+	font-size: 14px;
+	padding: 6px 10px;
+	background: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.inital-enquiry-form-btn-wrap .initial-enquiry-btn:focus {
+	border-color: #707070 !important;
+}
+
+
+.inital-enquiry-form-btn-wrap p {
+	margin: 10px 0 7px;
+	font-size: 12px;
+	color: #B1B1B1;
+}
+
+
+.inital-enquiry-form-btn-wrap img {
+	margin: 0 5px 0 0;
+}
+
+
+.initial-enquiry-form .modal-header h1 {
+	font-size: 25px;
+	line-height: 1;
+	color: #000000;
+	border-bottom: 2px solid #d0d1de;
+    width: 100%;
+    padding: 32px 0 5px;
+}
+
+.initial-enquiry-form .nav-tabs {
+	border: none;
+	display: flex;
+}
+
+.initial-enquiry-form .form-group.country-code .country-code-inner {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #C1C0C852;
+    border-radius: 10px;
+    margin: 0 12px 7px 0;
+}
+
+.initial-enquiry-form .msg-wrap {
+	display: flex;
+	width: 100%;
+}
+
+.initial-enquiry-form .msg-wrap small {
+	width: auto !important;
+	margin: 0 10px 0 0;
+}
+
+.initial-enquiry-form .form-group.country-code {
+	width: 91px;
+}
+.initial-enquiry-form .country-wrap input {
+	padding-left: 25px !important;
+}
+.initial-enquiry-form .country-wrap {
+	display: flex;
+	position: relative;
+	max-width: 62px;
+}
+.initial-enquiry-form .country-wrap span {
+	position: absolute;
+	left: 10px;
+	top: 8px;
+}
+
+@media (min-width: 680px) {
+	.initial-enquiry-form .nav-tabs {
+		justify-content: space-between;
+	}
+}
+.initial-enquiry-form .nav-tabs .nav-link {
+	border: none !important;
+	color: #b1b1b1;
+	position: relative;
+	padding: 0;
+	margin: 0 25px 0 0;
+	line-height: 2;
+    font-size: 14px;
+}
+
+
+.initial-enquiry-form .nav-tabs .nav-link:after {
+	content:"";
+	width: 100%;
+	height: 5px;
+	border-radius: 0 0 10px 10px;
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+}
+
+.initial-enquiry-form .nav-tabs .nav-link.active {
+	color: #000000;;
+}
+.initial-enquiry-form .nav-tabs .nav-link:hover:after,
+.initial-enquiry-form .nav-tabs .nav-link.active:after {
+	background: #009670;
+}
+
+.initial-form {
+	margin: 30px 0 0;
+}
+
+.initial-form label {
+	color: #52575D;
+	font-size: 14px;
+	margin: 0 0 5px;
+}
+
+.initial-form .form-group-main {
+	display: flex;
+}
+
+.initial-form .form-group {
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+    margin: 0 17px 17px 0;
+}
+
+.initial-form .form-group-main .form-group:last-child {
+    margin-right: 0;
+}
+
+.initial-form h3 {
+    color: #191919;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.initial-form h4 {
+    color: #52575D;
+    font-size: 14px;
+}
+
+.initial-form .form-group.number-width {
+	max-width: 250px;
+}
+
+.initial-form .form-group.number-width.right-space{
+	margin: 0 65px 0 0;
+}
+
+
+.initial-form .number-wrap {
+	border: 1px solid #f3f3f3;
+	margin: 0 25px 0 0;
+	display: flex;
+	padding: 4px 12px 7px;
+	flex-wrap: wrap;
+	width: 100%;
+    max-width: 400px;
+}
+
+.initial-form .number-wrap small {
+    width: 100%;
+}
+
+.initial-form .number-wrap small:empty {
+    display: none;
+}
+
+.initial-form .number-wrap .form-group {
+	width: 100%;
+}
+
+.initial-form .country-code-wrap {
+    margin: 0 10px 0 0;
+}
+
+.initial-form .mobile-no-wrap {
+    max-width: 275px;
+}
+
+.initial-form div.options {
+	display: block;
+    margin-bottom: 10px;
+}
+
+.initial-form div.options label {
+	display: inline-block;
+    width: auto;
+  }
+  
+.initial-form div.options input {
+	visibility: hidden;
+	float: right;
+	width: auto;
+}
+  
+.initial-form div.options img {
+	padding: 0px;
+	height:20px;
+	width:20px;
+	background: none;
+	float: left;
+	overflow: hidden;
+	margin: 3px 10px 0 0px;
+}
+.initial-form .form-check{
+	float: left;
+	margin: 10px;
+}
+
+.initial-form .form-check-input{
+	width: auto !important;
+}
+.initial-form div.options input:checked +img {
+	background: url(../../assets_crm/img/tick.png);
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-size:15px 15px;
+}
+
+.initial-form .checkbox-wrap p {
+	margin: 0;
+	color: #191919;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.initial-form .input-btn-wrap {
+	display: flex;
+}
+
+.initial-form .input-btn-wrap button {
+	background: #000000;
+	border-radius: 10px;
+	border-color: #000000;
+	color: #FFFFFF;
+	padding: 0 15px 0;
+}
+
+
+.initial-form .input-btn-wrap input {
+	margin: 0 10px 0 0;
+}
+
+.form-group.address-select {
+    width: 50%;
+}
+
+.initial-form input[type="text"], 
+.initial-form input[type="number"], 
+.initial-form input[type="email"], 
+.initial-form input[type="date"], 
+.initial-form textarea, 
+.initial-form select {
+	font-size: 14px;
+	padding: 10px;
+	height: 40px;
+	outline: none !important;
+}
+
+.initial-form .btn-primary.search {
+	height: 40px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: none !important;
+}
+
+.initial-form .checkbox-main {
+    display: flex;
+}
+
+.initial-form .checkbox-main .checkbox-wrap {
+	margin: 0 17px 17px 0;
+}
+
+.initial-form .form-group p {
+	margin: 0;
+    color: #191919;
+    font-size: 15px;
+    font-weight: 600;
+}
+.initial-form .enter-link {
+	color: #35B881;
+	font-size: 14px;
+	text-decoration: underline;
+	cursor: pointer;
+	margin: 0 0 12px;
+    display: inline-flex;
+	background: none;
+    border: none;
+}
+
+.initial-enquiry-form .back-to-top-btn-wrap {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.initial-enquiry-form .back-to-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    border: none;
+	font-size: 12px;
+    color: #35B881;
+    text-decoration: underline;
+}
+
+.initial-form .enter-link:hover {
+	text-decoration: none;
+}
+
+.initial-form .add-second-applicant {
+	color: #35B881;
+	font-size: 14px;
+	text-decoration: underline;
+	cursor: pointer;
+	margin: 0 0 12px;
+	padding: 0;
+    display: inline-flex;
+	background: none;
+    border: none;
+}
+
+.initial-form .add-second-applicant:hover {
+	text-decoration: none;
+}
+
+
+.initial-form .add-second-applicant {
+	display: flex;
+	align-items: center;
+}
+
+.initial-form .add-second-applicant img {
+	margin: 0 10px 0 0;
+    width: 24px;
+}
+
+.initial-form .form-group.full-width {
+	width: 100%;
+	height: 150px;
+}
+
+.initial-form .form-group.full-width textarea {
+	width: 100%;
+	height: 110px !important;
+	resize: none;
+}
+
+.initial-form .checkbox-main.seocond-box div.options img {
+	float: none;
+	margin: 1px 10px 0 12px;
+}
+
+.initial-form .form-group-main-second {
+	display: flex;
+}
+
+.initial-form .form-group.small-width .inner-content {
+	width: 100px;
+}
+
+.initial-form .inner-content {
+	position: relative;
+}
+
+.initial-form .inner-content span {
+	position: absolute;
+    right: 0;
+    width: 35px;
+    border-left: 1px solid #ebebed;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+
+.initial-form .date-group {
+    display: flex;
+}
+
+.initial-form .date-group .form-group {
+	width: auto;
+}
+
+
+
+
+
+
+/* Activity Modal */
+
+
+.activity-modal .modal-content {
+    border-top: 5px solid #00956E;
+    box-sizing: border-box;
+}
+.activity-modal .main-content {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.activity-modal .call-icon-wrap {
+    text-align: center;
+}
+
+.activity-modal .close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.activity-modal .modal-content h1 {
+    font-size: 25px;
+    font-weight: normal;
+	text-align: center;
+	margin: 0 0 80px;
+}
+
+
+.activity-modal .btn-wrap-custom {
+    margin: 20px 0 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.activity-modal .modal-content .btn-outline-primary {
+	padding: 10px;
+	margin: 0 7px;
+    font-size: 14px;
+	width: 100%;
+	max-width: 130px;
+	font-weight: bold;
+	color: #191919 !important;
+	border-color: #191919 !important;
+	box-shadow: none !important;
+}
+
+.activity-modal .modal-content .btn-outline-primary:focus,
+.activity-modal .modal-content .btn-outline-primary:hover {
+	background: rgba(0,149,110,0.2);
+}
+
+.activity-modal small:empty {
+    display: none;
+}
+
+.activity-modal .mid-heading {
+    font-weight: bold;
+    margin: 0 0 15px;
+    display: block;
+}
+
+.activity-modal .form-group {
+    margin: 0 0 15px;
+    width: 100%;
+}
+.activity-modal .input-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #C1C0C852;
+    border-radius: 10px;
+    padding: 0 5px;
+    position: relative;
+    width: 100%;
+}
+
+.activity-modal .form-group label {
+    font-size: 11px;
+    padding: 0 10px;
+    margin: 3px 0 0;
+    position: absolute;
+    color: #CBC9D9;
+}
+
+.activity-modal .form-group select, 
+.activity-modal .form-group input,
+.activity-modal .form-group textarea {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none;
+    padding: 20px 10px 5px 7px;
+    background: none;
+    width: 100%;
+    outline: none !important;
+    font-size: 14px;
+    height: 48px;
+}
+
+.activity-modal .form-group textarea {
+    height: 120px;
+    resize:none;
+}
+
+
+.activity-modal .btn.btn-primary {
+    margin: 5px 0 0;
+    width: 100%;
+}
+
+
+@media (min-width: 576px) {
+    .activity-modal .modal-dialog {
+        max-width: 700px;
+    }
+}
+
+
+/* Activity Modal */
+
+
+
+
+
+/* Call Modal */
+
+
+.call-modal .modal-content {
+    border-top: 5px solid #00956E;
+    box-sizing: border-box;
+}
+.call-modal .main-content {
+    flex-direction: column;
+    align-items: center;
+	margin: 0 auto;
+	max-width: 290px;
+}
+
+.call-modal .call-icon-wrap {
+    text-align: center;
+}
+
+.call-modal .close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.call-modal .modal-content h2 {
+    font-size: 21px;
+	font-weight: normal;
+	font-weight: bold;
+}
+
+.call-modal .modal-content h2 img {
+	margin: 0 15px 0 0;
+}
+
+.call-modal .modal-content h1 {
+    font-size: 25px;
+    font-weight: normal;
+	margin: 0 0 41px;
+}
+
+
+.call-modal .btn-wrap-custom {
+    margin: 20px 0 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.call-modal .modal-content .btn-outline-primary {
+	padding: 10px;
+	margin: 10px 0 0;
+    font-size: 14px;
+	width: 100%;
+	font-weight: bold;
+	color: #191919;
+	border-color: #191919 !important;
+	box-shadow: none !important;
+	background: none;
+}
+
+.call-modal .modal-content .btn-outline-primary:focus,
+.call-modal .modal-content .btn-outline-primary:hover {
+	background: rgba(0,149,110,0.2);
+	color: #191919;
+}
+
+.call-modal small:empty {
+    display: none;
+}
+
+.call-modal .mid-heading {
+    font-weight: bold;
+    margin: 0 0 15px;
+    display: block;
+}
+
+.call-modal .form-group {
+    margin: 0 0 15px;
+    width: 100%;
+}
+.call-modal .input-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #C1C0C852;
+    border-radius: 10px;
+    padding: 0 5px;
+    position: relative;
+    width: 100%;
+}
+
+.call-modal .form-group label {
+    font-size: 11px;
+    padding: 0 10px;
+    margin: 3px 0 0;
+    position: absolute;
+    color: #CBC9D9;
+}
+
+.call-modal .form-group select, 
+.call-modal .form-group input,
+.call-modal .form-group textarea {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none;
+    padding: 20px 10px 5px 7px;
+    background: none;
+    width: 100%;
+    outline: none !important;
+    font-size: 14px;
+    height: 48px;
+}
+
+.call-modal .form-group textarea {
+    height: 120px;
+    resize:none;
+}
+
+
+.call-modal .btn.btn-primary {
+    margin: 5px 0 0;
+	width: 100%;
+	box-shadow: none !important;
+	padding: 7px 10px;
+}
+
+
+
+@media (min-width: 576px) {
+    .call-modal .modal-dialog {
+        max-width: 700px;
+    }
+}
+
+
+
+/* Call Modal */
+
+
+
+
+
+/* Email Modal */
+
+
+.email-modal .modal-content {
+    border-top: 5px solid #00956E;
+    box-sizing: border-box;
+}
+.email-modal .main-content {
+    flex-direction: column;
+    align-items: center;
+	margin: 0 auto;
+	max-width: 290px;
+}
+
+.email-modal .email-icon-wrap {
+    text-align: center;
+}
+
+.email-modal .close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.email-modal .modal-content h2 {
+    font-size: 21px;
+	font-weight: normal;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+.email-modal .modal-content h2 span {
+	color: #35B881;
+	font-size: 34px;
+}
+
+
+.email-modal .modal-content h2 img {
+	margin: 0 9px 0 0;
+}
+
+.email-modal .modal-content h1 {
+    font-size: 25px;
+    font-weight: normal;
+	margin: 15px 0 41px;
+}
+
+
+.email-modal .btn-wrap-custom {
+    margin: 20px 0 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.email-modal .modal-content .btn-outline-primary {
+	padding: 10px;
+	margin: 10px 0 0;
+    font-size: 14px;
+	width: 100%;
+	font-weight: bold;
+	color: #191919;
+	border-color: #191919;
+	box-shadow: none !important;
+}
+
+.email-modal .modal-content .btn-outline-primary:hover {
+	background: rgba(0,149,110,0.2);
+}
+
+.email-modal small:empty {
+    display: none;
+}
+
+.email-modal .mid-heading {
+    font-weight: bold;
+    margin: 0 0 15px;
+    display: block;
+}
+
+.email-modal .form-group {
+    margin: 0 0 15px;
+    width: 100%;
+}
+
+.email-modal .form-group.fixed-width {
+	max-width: 300px;
+}
+.email-modal .input-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #C1C0C852;
+    border-radius: 10px;
+    padding: 0 5px;
+    position: relative;
+    width: 100%;
+}
+
+.email-modal .form-group label {
+    font-size: 11px;
+    padding: 0 10px;
+    margin: 3px 0 0;
+    position: absolute;
+    color: #CBC9D9;
+}
+
+.email-modal .form-group select, 
+.email-modal .form-group input,
+.email-modal .form-group textarea {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none;
+    padding: 20px 10px 5px 7px;
+    background: none;
+    width: 100%;
+    outline: none !important;
+    font-size: 14px;
+    height: 48px;
+}
+
+.email-modal .form-group textarea {
+    height: 200px;
+    resize: none;
+}
+
+
+.email-modal .btn.btn-primary {
+	box-shadow: none !important;
+	padding: 7px 30px;
+	margin: 5px 0 0;
+	width: 100%;
+}
+
+.select-account .modal-dialog {
+	max-width: 900px;
+}
+
+.select-account .duplicate-check-list-table td {
+	border-bottom: 2px solid #e4e9ee !important;
+}
+.select-account .duplicate-check-list-table td {
+	padding: 5px 18px;
+}
+
+
+.select-account .duplicate-check-list-table td {
+	min-width: auto;
+}
+
+.record-call-wrapper {
+	display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.account-profile-page .record-call-wrapper .add-activities {
+	padding: 3px 11px;
+	font-size: 13px;
+}
+
+@media (min-width: 576px) {
+    .email-modal .modal-dialog {
+        max-width: 700px;
+    }
+}
+
+
+
+/* Email Modal */
+
+@media screen and (max-width: 1056px) {
+	.number-div {
+		flex-direction: column;
+	}
+	.initial-form .number-wrap {
+		max-width: 100%;
+		margin: 0 0 15px;
+		max-width: max-content;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	
+	.initial-form .form-group-main {
+		flex-direction: column;
+		width: 100%;
+		margin: 0 0 17px 0;
+	}
+	.initial-form .form-group {
+		width: 100%;
+	}
+	.initial-form .number-wrap {
+		margin: 0 0 18px;
+		display: flex;
+		padding: 4px 12px 9px;
+		width: 100%;
+	}
+	.account-profile-page .right-list {
+		padding: 0 0 20px 28px;
+		box-sizing: border-box;
+	}
+}
+/* End Initial Enquiry Form Modal CSS */
