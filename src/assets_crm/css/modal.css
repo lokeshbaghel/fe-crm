@@ -1,0 +1,48 @@
+.modal {
+	z-index: 11111 !important;
+}
+
+.modal-content {
+	border-radius: 10px;
+	border: none;
+	border-top: 5px solid #00956E;
+}
+
+.review-modal .modal-icon {
+	display: flex;
+	justify-content: center;
+	margin: 0 0 10px;
+}
+
+.review-modal h2 {
+	color: #000000;
+	font-size: 28px;
+	line-height: 1;
+	font-family: 'lato-bold-webfont';
+	text-align: center;
+}
+
+.review-modal .review-btn {
+	display: flex;
+	justify-content: center;
+	margin: 40px 0 32px;
+}
+
+.review-modal .review-btn a {
+	margin: 0 9px;
+	width: 150px;
+}
+
+.review-modal .btn-wrap {
+	display: flex;
+	flex-direction: column;
+}
+
+.review-modal .btn-wrap .small-text {
+	font-size: 12px;
+	line-height: 1;
+	color: #52575D;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 10px 0 0 30px;
+}

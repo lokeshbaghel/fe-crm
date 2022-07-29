@@ -1,0 +1,243 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+/* body {
+	background-color: #bdc3c7;
+} */
+
+@font-face {
+    font-family: "ProximaSoft-Bold";
+    src: url('../fonts/ProximaSoft-Bold.woff2') format("woff2"),
+      url('../fonts/ProximaSoft-Bold.woff') format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "ProximaSoft-Medium";
+	src: url('../fonts/ProximaSoft-Medium.woff2') format("woff2"),
+		url('../fonts/ProximaSoft-Medium.woff') format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "ProximaSoft";
+	src: url('../fonts/ProximaSoft-Regular.woff2') format("woff2"),
+		url('../fonts/ProximaSoft-Regular.woff') format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Goodlife";
+	src: url('../fonts/good_life-webfont.woff2') format("woff2"), 
+		url('../fonts/good_life-webfont.woff') format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "lato-bold-webfont";
+	src: url('../fonts/lato-bold-webfont.woff2') format("woff2"), 
+		url('../fonts/lato-bold-webfont.woff') format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "lato-regular-webfont";
+	src: url('../fonts/lato-regular-webfont.woff2') format("woff2"),
+		url('../fonts/lato-regular-webfont.woff') format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'LatoLight';
+    src: url('../fonts/LatoLight.woff2') format('woff2'),
+         url('../fonts/LatoLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.page-content-wrapper {
+	padding: 20px 15px 0 94px;
+	margin: -375px 0 0;
+	box-sizing: border-box;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease !important;
+    -moz-transition: all 0.5s ease !important;
+    -o-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+}
+
+.page-content-wrapper.sub-page {
+    margin: -366px 0 0;
+}
+
+
+.page-content-wrapper.user-profile {
+    margin: -257px 0 0;
+}
+
+@media screen and (max-width: 1240px) {
+	.page-content-wrapper {
+		padding: 66px 15px 0 0;
+    }
+    .page-content-wrapper.user-profile {
+        margin: -121px 0 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+	.page-content-wrapper {
+		padding: 66px 0 0 0;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	.page-content-wrapper {
+		margin: -589px 0 0;
+	}
+}
+  
+a {
+    color: #007bff;
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+  
+a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'lato-regular-webfont';
+}
+  
+img {
+    max-width: 100%;
+}
+
+::placeholder {
+    color: #CCCCCC !important;
+}
+
+.btn-primary {
+    background: #000000 !important;
+    border-color: #000000 !important;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+  
+.btn-primary:hover, .btn-primary:focus {
+    background: #00956E !important;
+    border-color: #00956E !important;
+	box-shadow: none;
+}
+  
+.btn-outline-primary {
+    font-size: 16px;
+    line-height: 1;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-width: 2px;
+}
+  
+.green.btn-outline-primary {
+    color: #449FAE !important;
+    border-color: #449FAE !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+  
+.green.btn-outline-primary:focus,
+.green.btn-outline-primary:hover,
+.green.btn-outline-primary.active {
+    background: rgba(68,159,174,0.3) !important;
+}
+  
+  
+.red.btn-outline-primary {
+    color: #AA0050 !important;
+    border-color: #AA0050 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.red.btn-outline-primary:focus,
+.red.btn-outline-primary:hover,
+.red.btn-outline-primary.active {
+    background: rgba(170,0,80,0.3) !important;
+}
+  
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.dash-title {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-family: "ProximaSoft-Medium";
+    font-size: 31px;
+}
+/*Toggle*/
+
+#wrapper {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+	.dash-title {
+		font-size: 29px;
+	}
+    .page-content-wrapper.sub-page {
+		margin: -590px 0 0;
+	}
+}
+
+/** Modal Start **/
+
+.modal {
+    z-index: 11111 !important;
+    margin-top: 30px;
+  }
+
+.modal-header,
+.modal-footer {
+    border: none;
+}
+
+.modal-content h1 {
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #333333;
+  }
+
+  .modal-content {
+    border-radius: 10px;
+    border: none;
+    box-shadow: -2px 0px 12px 0px rgba(0,0,0,0.35);
+  }
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 800px;
+    }
+}

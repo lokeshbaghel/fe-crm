@@ -1,0 +1,34 @@
+
+
+
+.page-content-wrapper {
+	padding: 0 15px 0 121px;
+	margin: -375px 0 0;
+	box-sizing: border-box;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease !important;
+    -moz-transition: all 0.5s ease !important;
+    -o-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+}
+
+
+
+@media screen and (max-width: 1240px) {
+	.page-content-wrapper {
+		padding: 0 15px 0 0;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.page-content-wrapper {
+		padding: 0;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	.page-content-wrapper {
+		margin: -499px 0 0;
+	}
+}

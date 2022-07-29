@@ -1,0 +1,122 @@
+/* header */
+#header {
+	background: #FFFFFF;
+	padding: 15px 0;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#header.second-header {
+	padding: 8px;
+    box-sizing: border-box;
+    position: fixed;
+	top: 0;
+	width: 100%;
+	background: #FFFFFF;
+	z-index: 9999;
+	-webkit-box-shadow: -1px 3px 28px -7px rgba(0,0,0,0.48);
+	-moz-box-shadow: -1px 3px 28px -7px rgba(0,0,0,0.48);
+	box-shadow: -1px 3px 28px -7px rgba(0,0,0,0.48);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+	left:0;
+}
+
+.header-right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+img.notification-icon {
+	margin: 0 30px;
+    max-width: 38px;
+}
+
+img.logo-small {
+	margin: 20px 0;
+    max-width: 139px;
+}
+
+
+
+.add-button {
+	margin: 0 20px 0 0;
+}
+
+
+#header .search-div {
+    height: 44px;
+	width: 194px;
+    position: relative;
+}
+
+#header .search-div input {
+    height: 44px;
+	width: 194px;
+    border-radius: 8px;
+    background: #F5F6FA;
+}
+
+#header .search-btn {
+    background: url(../img/search-icon.png) no-repeat;
+    border: none;
+    text-indent: -9999px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 9px;
+    top: 14px;
+    background-size: contain;
+}
+#header .user-icon {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+/* header */
+@media screen and (max-width: 1240px) {
+	#header.second-header {
+		padding: 8px 8px 8px 29px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.logo {
+		max-width: 145px;
+		position: absolute;
+	}
+	
+	.add-button {
+		position: absolute;
+		right: 0;
+		margin: 0 auto;
+		max-width: 200px;
+		bottom: -54px;
+	}
+	
+	.search-div input {
+		width: 0px;
+		opacity: 0;
+		transition: all 0.5s ease;
+	}
+	
+	.search-div:hover input,
+	.search-div input:focus {
+		width: 194px;
+		opacity: 1;
+	}
+	
+	img.notification-icon {
+		margin: 0 7px;
+	}
+}
