@@ -1,0 +1,112 @@
+.End-Call .modal-content {
+    border-top: 5px solid #00956E;
+    box-sizing: border-box;
+}
+.End-Call .main-content {
+    flex-direction: column;
+    align-items: center;
+    max-width: 342px;
+    margin: 0 auto;
+}
+
+.End-Call .call-icon-wrap {
+    text-align: center;
+}
+
+.End-Call .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.End-Call .modal-content h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.End-Call .btn-wrap-custom {
+    margin: 20px 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.End-Call .modal-content .btn-outline-primary {
+    padding: 7px 20px;
+    font-size: 14px;
+    width: 48%;
+}
+
+
+.End-Call small:empty {
+    display: none;
+}
+
+.End-Call .mid-heading {
+    font-weight: bold;
+    margin: 0 0 15px;
+    display: block;
+}
+
+.End-Call .form-group {
+    margin: 0 0 15px;
+    width: 100%;
+}
+.End-Call .input-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #C1C0C852;
+    border-radius: 10px;
+    padding: 0 5px;
+    position: relative;
+    width: 100%;
+}
+
+.End-Call .form-group label {
+    font-size: 11px;
+    padding: 0 10px;
+    margin: 3px 0 0;
+    position: absolute;
+    color: #CBC9D9;
+}
+
+.End-Call .form-group select, 
+.End-Call .form-group input,
+.End-Call .form-group textarea {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none;
+    padding: 20px 10px 5px 7px;
+    background: none;
+    width: 100%;
+    outline: none !important;
+    font-size: 14px;
+    height: 48px;
+}
+
+.End-Call .form-group textarea {
+    height: 120px;
+    resize:none;
+}
+
+
+.End-Call .btn.btn-primary {
+    margin: 5px 0 0;
+    width: 100%;
+}
+
+
+@media (min-width: 576px) {
+    .End-Call .modal-dialog {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .End-Call .main-content {
+        max-width: 420px;
+    }
+}
+

@@ -1,0 +1,92 @@
+.progress-items .modal-content h1 {
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 1.1;
+  color: #333333;
+}
+
+.progress-items .progress-items-list {
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  height: 200px;
+}
+
+.progress-items h4 {
+  margin-top: 10px;
+}
+
+.progress-items p {
+  font-size: 12px;
+}
+
+.progress-items-list table tr {
+  cursor: pointer;
+}
+
+.progress-items-list .tableHover tr:hover {
+  background-color: #ccc;
+}
+
+.progress-items-list table tr.tableSelected,
+.progress-items-list table tr.tableSelected:hover {
+  background-color: #000;
+  color: #FFFFFF;
+}
+
+.progress-items .btn-primary {
+  padding: 5px 30px;
+  margin: 20px 0 5px 0;
+}
+
+.progress-items  .item-search-wrap {
+  position: relative;
+  width: 100%;
+  margin: 0 0 15px;
+}
+
+.progress-items .search-progress-item {
+ width: 100%;
+ height: 30px;
+ outline: none;
+ background-color: #FFFFFF;
+ padding: 0 9px 0 35px;
+ font-size: 12px;
+}
+
+.progress-items .search-btn  {
+  background: url('../../../assets_crm/img/search-icon.png') no-repeat;
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  outline: none;
+}
+
+.progress-items .item-search-wrap:hover .search-progress-item,
+.progress-items .item-search-wrap .search-progress-item:focus {
+  border-color: #52575d;
+}
+
+.progress-items .item-search-wrap .search-progress-item:focus ~ .search-btn {
+  background: url('../../../assets_crm/img/search-icon-dark.png') no-repeat;
+}
+
+.progress-items .item-search-wrap:hover .search-btn  {
+  background: url('../../../assets_crm/img/search-icon-dark.png') no-repeat;
+}
+
+.progress-items td {
+  padding: 0 5px !important;
+}
+
+@media (min-width: 576px) {
+  .progress-items .modal-dialog {
+      max-width: 600px;
+  }
+}

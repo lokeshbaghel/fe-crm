@@ -1,0 +1,281 @@
+.user-pop-up .modal-header,
+.user-pop-up .modal-body,
+.user-pop-up .modal-footer {
+  border: none !important;
+  padding-left: 70px;
+  padding-right: 70px;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+textarea,
+select {
+  border: 1px solid #ebebed;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+.user-pop-up .phone-wrap {
+    margin: 0 0 0 11px;
+    width: 85%;  
+}
+
+.user-pop-up .input-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #C1C0C852;
+  border-radius: 10px;
+  padding: 0 5px;
+  position: relative;
+  width: 100%;
+  margin-top: 0;
+}
+
+
+
+.user-pop-up .form-group label {
+  font-size: 11px;
+  padding: 0 6px;
+  margin: 3px 0 0;
+  position: absolute;
+  color: #CBC9D9;
+}
+
+.country-code-div {
+  width: 130px !important;
+}
+
+.user-pop-up select, .user-pop-up input {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none;
+  padding: 18px 10px 5px 7px;
+  background: none;
+  width: 100%;
+  outline: none !important;
+  font-size: 14px;
+  height: 40px;
+}
+
+.user-pop-up select {
+  padding: 0px;
+}
+
+.user-pop-up input::-webkit-outer-spin-button,
+.user-pop-up input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.user-pop-up input[type=number] {
+ appearance: textfield;
+}
+
+.modal-content input,
+.modal-content textarea {
+  width: 100%;
+}
+
+.modal-content .text-danger {
+  margin-left: 5px;
+}
+
+.user-pop-up .country-code {
+  position: relative;
+}
+
+.user-pop-up .country-code-wrapper {
+  display: flex;
+}
+
+.user-pop-up .country-code span {
+  position: absolute;
+  left: 7px;
+  top: 9px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.user-pop-up input#country_code {  
+  padding-left: 27px;
+  padding-right: 0 !important;
+}
+
+.user-pop-up .multi-add .css-g1d714-ValueContainer {
+  max-height: 46px;
+  margin: -6px 0 0;
+}
+
+.user-pop-up .multi-add .css-vndh9s-control {
+  border-color: #ebebed !important;
+}
+
+
+
+/* Add Lead */
+.user-pop-up p {
+  color: #1b2238;
+  font-size: 15px;
+}
+
+.user-pop-up .modal-header .close{
+  position: relative;
+  left: 50px;
+}
+
+.user-pop-up input[type="text"]::placeholder,
+.user-pop-up input[type="email"]::placeholder,
+.user-pop-up textarea::placeholder {
+  color: #cbc9d9 !important;
+}
+
+.user-pop-up .form-group.three-inline {
+  display: flex;
+}
+
+.user-pop-up textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+.user-pop-up .form-group.three-inline .inputs-group:first-child {
+  margin-left: 0;
+}
+
+.user-pop-up .form-group.three-inline .inputs-group {
+  margin: 0 7px;
+  width: 100%;
+}
+
+.user-pop-up .form-group.three-inline .inputs-group:last-child {
+  margin-right: 0;
+}
+
+.user-pop-up .form-group.two-inline {
+  display: flex;
+}
+
+.user-pop-up .form-group.two-inline .inputs-group {
+  width: 50%;
+}
+
+.user-pop-up .form-group.two-inline.first .inputs-group  {
+  margin-right: 7px;
+}
+
+.user-pop-up .form-group.two-inline .inputs-group  {
+  width: 50%;
+  color: #cbc9d9;
+  flex-direction: column;
+  display: flex;
+}
+
+.user-pop-up .form-group.two-inline  .inputs-group:first-child {
+  margin: 0 7px 0 0;
+}
+
+.user-pop-up .form-group.two-inline  .inputs-group:last-child {
+  margin: 0 0 0 7px;
+}
+
+.cancel-btn {
+  cursor: pointer;
+  color: #06956e;
+  text-decoration: underline;
+}
+
+.upload-container {
+  width: 100%;
+  height: 160px;
+  border: 1px solid #ebebed;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.upload-container img {
+  margin: 0 0 5px;
+}
+
+.upload-container input {
+  width: 51px;
+  content: "browse";
+  font-size: 0px;
+  margin: -7px 0 0 5px;
+  border: none;
+  padding: 0 !important;
+  outline: none !important;
+  background: none !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.upload-container input:hover {
+  text-decoration: none;
+}
+
+.upload-container input:before {
+  content: "browse";
+  color: #06956e;
+  font-size: 16px;
+}
+
+.upload-doc p {
+  color: #1b2238;
+  font-size: 16px;
+}
+
+.upload-content {
+  display: flex;
+  align-items: center;
+}
+
+.btn-wrap {
+  margin: 40px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-wrap .btn-primary {
+  padding: 9px 60px;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .user-pop-up .form-group.two-inline,
+  .user-pop-up .form-group.three-inline {
+    flex-direction: column;
+  }
+
+  .user-pop-up .form-group.two-inline .inputs-group,
+  .user-pop-up .form-group.three-inline .inputs-group {
+      margin: 0 0 16px;
+  }
+  .user-pop-up .form-group.three-inline .inputs-group:last-child {
+    margin: 0;
+  }
+  .user-pop-up .form-group.two-inline .inputs-group {
+    width: 100%;
+    margin: 0 0 16px!important;
+  }
+  .modal-header, .modal-body, .modal-footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .user-pop-up .modal-header .close {
+    left: 0;
+  }
+}

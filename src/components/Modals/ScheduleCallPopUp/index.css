@@ -1,0 +1,71 @@
+.react-calendar {
+    width: 100%;
+}
+
+.info {
+    background-color: #e5e6ed;
+    padding: 10px 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    margin: 0 0 20px;
+}
+
+.info ul li{
+    margin: 0 0 0 0;
+    padding: 5px 0 5px 0;
+    display: flex;
+}
+
+.info ul li span{
+    margin-left: 10px;
+}
+.info ul li i{
+    position: relative;
+    top: 3px;
+}
+
+.modal-body .heading{
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 0 3px 0;
+    display: block;
+}
+
+.call-details-box{
+    border: 1px solid #f2f2f3;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.call-details-box small{
+    font-size: 10px;
+    color: #ccc;
+    position: absolute;
+    top: 0;
+}
+
+.call-details-box textarea{
+    font-size: 14px;
+    color: #444;
+    margin:5px 0 0 0;
+    padding: 0;
+    height: 200px;
+    resize: none;
+    border: none;
+    text-align: left;
+}
+
+.call-details-box textarea:focus{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.call-details-box textarea:focus-visible{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+

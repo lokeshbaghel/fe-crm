@@ -1,0 +1,20 @@
+.change-password input[type="text"], 
+.change-password input[type="password"] {
+	font-size: 14px;
+	padding: 10px;
+	height: 40px;
+    outline: none !important;
+    border: 1px solid #ebebed;
+    border-radius: 10px;
+}
+
+.change-password .change-pass-btn-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.change-password .change-pass-btn-wrap .btn {
+    padding: 4px 30px;
+    box-shadow: none !important;
+}

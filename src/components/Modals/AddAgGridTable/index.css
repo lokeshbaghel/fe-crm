@@ -1,0 +1,272 @@
+.add-lead .modal-header,
+.add-lead .modal-body,
+.add-lead .modal-footer {
+  border: none !important;
+  padding-left: 70px;
+  padding-right: 70px;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea,
+select {
+  border: 1px solid #ebebed;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+.modal-content input,
+.modal-content textarea {
+  width: 100%;
+}
+
+.modal-content .text-danger {
+  margin-left: 5px;
+}
+
+/* Add Lead */
+.add-lead p {
+  color: #1b2238;
+  font-size: 15px;
+}
+
+.add-lead .modal-header .close{
+  position: relative;
+  left: 50px;
+}
+
+.add-lead input[type="text"]::placeholder,
+.add-lead input[type="email"]::placeholder,
+.add-lead textarea::placeholder {
+  color: #cbc9d9 !important;
+}
+
+.add-lead .form-group.three-inline {
+  display: flex;
+}
+
+.add-lead textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+.add-lead .form-group.three-inline .inputs-group:first-child {
+  margin-left: 0;
+}
+
+.add-lead .form-group.three-inline .inputs-group {
+  margin: 0 7px;
+  width: 100%;
+}
+
+.add-lead .form-group.three-inline .inputs-group:last-child {
+  margin-right: 0;
+}
+
+.add-lead .form-group.two-inline {
+  display: flex;
+}
+
+.add-lead .form-group.two-inline .inputs-group {
+  width: 50%;
+}
+
+.add-lead .form-group.two-inline.first .inputs-group  {
+  margin-right: 7px;
+}
+
+.add-lead .form-group.two-inline .inputs-group  {
+  width: 50%;
+  color: #cbc9d9;
+  flex-direction: column;
+  display: flex;
+}
+
+.add-lead .form-group.two-inline  .inputs-group:first-child {
+  margin: 0 7px 0 0;
+}
+
+.add-lead .form-group.two-inline  .inputs-group:last-child {
+  margin: 0 0 0 7px;
+}
+
+.add-lead input[type="tel"] {
+  border: 1px solid #ebebed;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+.cancel-btn {
+  cursor: pointer;
+  color: #06956e;
+  text-decoration: underline;
+}
+
+.upload-container {
+  width: 100%;
+  height: 160px;
+  border: 1px solid #ebebed;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.upload-container img {
+  margin: 0 0 5px;
+}
+
+.upload-container input {
+  width: 51px;
+  content: "browse";
+  font-size: 0px;
+  margin: -7px 0 0 5px;
+  border: none;
+  padding: 0 !important;
+  outline: none !important;
+  background: none !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.upload-container input:hover {
+  text-decoration: none;
+}
+
+.upload-container input:before {
+  content: "browse";
+  color: #06956e;
+  font-size: 16px;
+}
+
+.upload-doc p {
+  color: #1b2238;
+  font-size: 16px;
+}
+
+.upload-content {
+  display: flex;
+  align-items: center;
+}
+
+.btn-wrap {
+  margin: 40px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-wrap .btn-primary {
+  padding: 9px 60px;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .add-lead .form-group.two-inline,
+  .add-lead .form-group.three-inline {
+    flex-direction: column;
+  }
+
+  .add-lead .form-group.two-inline .inputs-group,
+  .add-lead .form-group.three-inline .inputs-group {
+      margin: 0 0 16px;
+  }
+  .add-lead .form-group.three-inline .inputs-group:last-child {
+    margin: 0;
+  }
+  .add-lead .form-group.two-inline .inputs-group {
+    width: 100%;
+    margin: 0 0 16px!important;
+  }
+  .modal-header, .modal-body, .modal-footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .add-lead .modal-header .close {
+    left: 0;
+  }
+}
+
+.add-lead .country-code-wrapper {
+  display: flex;
+}
+
+.add-lead .input-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #C1C0C852;
+    border-radius: 10px;
+    padding: 0 5px;
+    position: relative;
+    width: 100%;
+}
+
+.add-lead .country-code {
+  position: relative;
+}
+
+.add-lead .input-wrap.country-code-div {
+  border: none;
+  padding: 0;
+}
+
+.add-lead .country-code span {
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  font-size: 18px;
+  color: #000000;
+}
+
+.add-lead input.telephone_country_code {
+  padding-left: 25px;
+  padding-right: 0 !important;
+  border: none;
+}
+
+.add-lead .phone-wrap {
+  margin: 0 0 0 11px;
+  width: 55%;
+}
+/* Add Lead */
+
+
+
+/* Add Table Pop up */
+
+
+.add-table-popup .modal-body {
+  text-align: center;
+}
+
+.add-table-popup .inputs-group {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 767px) {
+  .add-lead .country-code-wrapper {
+    width: 100%;
+    margin: 0 0 5px;
+  }
+  .inputs-wrap .inputs-wrap {
+    width: 100%;
+  }
+  .add-lead .modal-header,
+  .add-lead .modal-body,
+  .add-lead .modal-footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

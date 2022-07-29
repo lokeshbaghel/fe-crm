@@ -1,0 +1,36 @@
+.pagination ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0 0;
+}
+  
+.pagination ul li:last-child a, .pagination ul li:first-child a {
+    opacity: 0.5;
+}
+  
+.pagination ul li a {
+    color: #52575D;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 15px;
+    width: 40px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.pagination ul li:last-child a:hover, .pagination ul li:first-child a:hover {
+    background: none;
+    opacity: 1;
+}
+  
+.pagination ul li a:hover {
+    background: #508FF4;
+    color: #FFFFFF;
+}
